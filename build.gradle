@@ -4,6 +4,7 @@ buildscript {
     }
     dependencies {
         classpath  'commons-configuration:commons-configuration:1.10'
+        classpath  'fr.jmini.asciidoctorj:jira:1.1.0'
     }
 }
 
