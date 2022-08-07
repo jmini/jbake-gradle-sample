@@ -4,12 +4,18 @@ buildscript {
     }
     dependencies {
         classpath  'commons-configuration:commons-configuration:1.10'
-        classpath  'fr.jmini.asciidoctorj:jira:1.1.0'
     }
 }
 
 plugins {
     id 'org.jbake.site' version '5.5.0'
+}
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    jbake 'fr.jmini.asciidoctorj:jira:1.1.0'
 }
 
 wrapper {
